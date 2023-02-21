@@ -1,6 +1,6 @@
 <template lang="">
-    <div style="text-align: center;">
-        Copyright &copy; 2023 by Your Name. All rights reserved.
+    <div class="foot">
+        Copyright &copy; 2023
     </div>
 </template>
 
@@ -9,6 +9,13 @@ export default {
     
 }
 </script>
-<style lang="">
+<style scoped>
+.foot{
+    text-align : center;
+    color: teal;
+   font-family: cursive;
+   margin-bottom: 10px;
+   
+}
     
 </style>
