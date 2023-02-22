@@ -78,7 +78,7 @@ export default {
 
 }
 .pin{
-color: teal;
+color: #38b883;
   font-weight: bolder;
   font-size: 50px;
   position: absolute;
@@ -91,7 +91,7 @@ color: teal;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    border: 1px solid teal;
+    border: 1px solid #38b883;
     border-radius: 10px;
     width: 60%;
 
@@ -99,7 +99,7 @@ color: teal;
 }
 
 .title {
-    color: teal;
+    color: #38b883;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -107,7 +107,7 @@ color: teal;
 }
 
 .custom-btn {
-    background-color: teal;
+    background-color: #38b883;
     color: white;
     border: none;
 
@@ -123,11 +123,11 @@ color: teal;
 
 input {
     border: none;
-    border: 1px solid teal;
+    border: 1px solid #38b883;
     outline: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    color:rgb(85, 164, 164);
+    color:#38b883;
     margin-left: 20px;
     width: 400px;
     padding: 10px 20px;

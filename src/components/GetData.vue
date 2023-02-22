@@ -78,7 +78,7 @@ export default {
 </script>
 <style scoped>
 .title {
-    color: teal;
+    color: #38b883;
     font-weight: bold;
    
     margin-top: 50px;
@@ -87,7 +87,7 @@ export default {
     
 }
 .custom-btn {
-    background-color: teal;
+    background-color: #38b883;
     color: white;
     border: none;
     border-radius: 10px;
@@ -97,7 +97,7 @@ export default {
 }
 input{
     border: none;
-    border-bottom: 1px solid teal;
+    border-bottom: 1px solid #38b883;
     outline: none;
     padding: 5px 10px;
     border-radius: 10px;

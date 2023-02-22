@@ -42,7 +42,7 @@ export default {
 <style scoped>
 .navlink {
   margin-left: 20px;
-  color: teal;
+  color: #38b883;
   font-weight: bold;
   list-style: none;
   text-decoration: none;

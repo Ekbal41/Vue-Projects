@@ -69,7 +69,7 @@ export default {
 </script>
 <style scoped>
 .title {
-    color: teal;
+    color: #38b883;
     font-weight: bold;
     text-align: center;
     margin-top: 100px;
@@ -96,7 +96,7 @@ export default {
 }
 
 .custom-btn {
-    background-color: teal;
+    background-color: #38b883;
     color: white;
     border: none;
     padding: 10px 20px;

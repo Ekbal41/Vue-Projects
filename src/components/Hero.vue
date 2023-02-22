@@ -34,14 +34,6 @@ export default {
     margin-top: 80px;
 }
 
-.cborder {
-    /* border: 5px solid #35495e;
-    border-radius: 30px; */
-    
-
-
-
-}
 
 button {
     background-color: #35495e;
@@ -72,7 +64,7 @@ h1 {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 20px;
-    color: teal;
+    color: #38b883;
     font-family: Arial, Helvetica, sans-serif;
 }
 

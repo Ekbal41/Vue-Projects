@@ -12,7 +12,7 @@ export default {
 <style scoped>
 .foot{
     text-align : center;
-    color: teal;
+    color: #38b883;
    font-family: cursive;
    margin-bottom: 10px;
    
