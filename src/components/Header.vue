@@ -13,10 +13,7 @@
           <router-link class='navlink'  to="/">Home</router-link>
           
         </li>
-        <li class="nav-item">
-          <router-link class='navlink'  to="/form">Form</router-link>
-          
-        </li>
+       
         <li class="nav-item">
          
           <router-link class='navlink' to="/secondform">Todo App</router-link>

@@ -9,7 +9,7 @@ const routes = [
     {path: '/secondform', component: SecondCom},
     {path: '/counter', component: Counter},
     {path: '/getdata', component: GetData},
-    {path: '/form',  component: FormSubmit },
+   
 
 
 ]
