@@ -1,7 +1,7 @@
 <template lang="">
     <div>
        
-        <div class="table-responsive container">
+        <div class="table-responsive container maindiv">
             <div class="title"><h1 >Get Data</h1>
             <div>
               
@@ -80,11 +80,18 @@ export default {
 .title {
     color: #38b883;
     font-weight: bold;
-   
+   margin-bottom: 20px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     
+}
+table{
+    color: #35495e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    text-transform: capitalize;
 }
 .custom-btn {
     background-color: #38b883;
@@ -101,6 +108,20 @@ input{
     outline: none;
     padding: 5px 10px;
     border-radius: 10px;
+}
+.maindiv{
+   border: 1px solid #38b883;
+   margin-top: 20px;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .maindiv{
+       
+       width: 90%;
+
+    }
 }
     
 </style>

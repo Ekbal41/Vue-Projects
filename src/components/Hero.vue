@@ -31,7 +31,7 @@ export default {
 }
 
 .mt-80 {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 
@@ -78,11 +78,12 @@ h1 {
 
 img {
     height: 300px;
-    margin: 0 30px;
+    margin: 0 20px;
     position: relative;
     width: 90%;
     object-fit: cover;
     border-radius: 20%;
+    border: 1px solid #38b883;
 
 
 }
@@ -92,5 +93,18 @@ img {
     position: absolute;
     bottom: 70px;
     right: 50px;
+}
+
+
+@media screen and (max-width: 600px){
+    .mt-80 {
+    margin-top: 20px;
+}
+    button{
+        margin-left: 60px;
+    }
+    .sec-one{
+       padding: 30px;
+    }
 }
 </style>

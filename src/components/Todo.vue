@@ -1,10 +1,12 @@
 <template>
     <div class=" mt-5">
-        <div>
+        <div class="container topdiv">
             <div class="input-div">
                 <h1 class="title">Todo App</h1>
+                <div>
                 <input type="text" class="form" placeholder="Enter Todo" v-model="todo">
                 <button class="custom-btn" @click="addTodo">Add</button>
+            </div>
             </div>
             <div class="maindiv">
 
@@ -15,7 +17,7 @@
                         
                     </div>
                     <div>
-                        <button @click="onDelete(index)" class="delete-btn">Delete</button>
+                        <button @click="onDelete(index)" class="delete-btn"><i class="bi bi-trash3"></i></button>
                     </div>
                 </div>
 
@@ -67,6 +69,12 @@ export default {
 
     margin-top: 10px;
 }
+.topdiv{
+    border: 1px solid #38b883;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 .todo {
     color: gray;
@@ -93,7 +101,7 @@ color: #38b883;
     padding: 10px 20px;
     border: 1px solid #38b883;
     border-radius: 10px;
-    width: 60%;
+    width: 80%;
 
     margin: 20px auto;
 }
@@ -111,7 +119,7 @@ color: #38b883;
     color: white;
     border: none;
 
-   padding: 0 20px;
+   padding: 11px 20px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -153,5 +161,48 @@ input {
     justify-content: center;
 
 
+}
+
+@media screen and (max-width: 600px){
+    .maindiv {
+        width: 100%;
+        padding: 20px;
+        padding-top: 0;
+    }
+    .topdiv{
+        width: 90%;
+    }
+    .input-div{
+        flex-direction: column;
+        margin-left: 10px;
+       
+    }
+    .todo {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .pin{
+        font-size: 30px;
+        top: -20px;
+        left: -10px;
+    }
+    .singeltodo {
+        width: 100%;
+    }
+    .custom-btn {
+        padding: 11px 10px;
+    }
+    input {
+        width: 220px;
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
+    .title{
+        margin-bottom: 40px;
+    }
+    .delete-btn {
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
 }
 </style>

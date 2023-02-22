@@ -1,19 +1,20 @@
 <template lang="">
-    <div>
+    <div class=" container  maindiv">
+    
     <h1 class="title">Vue Counter</h1>
-    <h2 :class="{ 'down':count < 0, 'up':count >= 0 }">
+    <p :class="{ 'down':count < 0, 'up':count >= 0 }">
         {{ count }}
-    </h2>
+    </p>
     <div class="btn-div">
-    <button class="custom-btn " @click="downCount">DOWN COUNT</button>
-    <button class="custom-btn" @click="resetCount">RESET</button>
-    <button class="custom-btn" @click="upCount">UP COUNT</button>
+    <button class="custom-btn " @click="downCount"><i class="bi bi-arrow-down-square"></i></button>
+    <button class="custom-btn" @click="resetCount"><i class="bi bi-x-square"></i></button>
+    <button class="custom-btn" @click="upCount"><i class="bi bi-arrow-up-square"></i></button>
    
     </div>
     <div class="btn-div mb-5" style="margin-bottom: 10p">
-    <button class="custom-btn " @click="autoDown">AUTO DOWN</button>
-    <button class="custom-btn" @click="stop">STOP</button>
-    <button class="custom-btn" @click="autoUp">AUTO UP</button>
+    <button class="custom-btn " @click="autoDown"><i class="bi bi-arrow-down-square-fill"></i></button>
+    <button class="custom-btn" @click="stop"><i class="bi bi-slash-square-fill"></i></button>
+    <button class="custom-btn" @click="autoUp"><i class="bi bi-arrow-up-square-fill"></i></button>
     </div>
     
 
@@ -72,20 +73,27 @@ export default {
     color: #38b883;
     font-weight: bold;
     text-align: center;
-    margin-top: 100px;
+  
+}
+
+.maindiv{
+    border: 1px solid #38b883;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 50%;
 }
 
 .down {
     color: red;
     text-align: center;
-    font-size: 50px;
+  
 }
 
 .up {
     color: gray;
 
     text-align: center;
-    font-size: 50px;
+    
 }
 
 .btn-div {
@@ -94,14 +102,33 @@ export default {
     margin-top: 25px;
 
 }
+p{
+    font-size: 100px;
+ 
+}
 
 .custom-btn {
-    background-color: #38b883;
-    color: white;
-    border: none;
+   border: 1px solid white;
+ color: #38b883;
+ font-size: 30px;
+   
     padding: 10px 20px;
     margin: 0 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.custom-btn:hover{
+    border: 1px solid #38b883;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .maindiv{
+        width: 90%;
+      padding: 0;
+      margin-left: 20px;
+    }
 }
 </style>

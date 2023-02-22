@@ -1,6 +1,6 @@
 <template>
-    <div class="container w-50 my-4">
-        <h1 style="text-align: center; color: #38b883;">Form Example</h1>
+    <div class="container maindiv">
+        <h1 style="text-align: center; color: #38b883; text-transform: uppercase;">Contact me</h1>
         <form @submit.prevent="onSubmit">
             <label class="label" for="name">Name</label>
             <input class="form" autocomplete="off" type="text" placeholder="Name" id="name" name="name" v-model="name">
@@ -38,13 +38,32 @@ export default {
     border: none;
     border: 1px solid #38b883;
     outline: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
+    color:#35495e;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+form{
+   width: 50%;
+   
+    border: 1px solid #38b883;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
 }
 
 .label {
-    color:gray;
-    font-weight: bold;
+    color:#35495e;
+    font-weight: lighter;
     margin-bottom: 0.5rem;
     padding-right: 200px;
     margin-top: 10px;
@@ -52,15 +71,33 @@ export default {
 }
 
 button {
-    margin-top: 10px;
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 4px;
-    background-color: #38b883;
-    color: #fff;
-    font-weight: bold;
+    background-color: #35495e;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    border: 2px solid #35495e;
+    font-weight: bold;
+    margin-bottom: 40px;
+    align-self: start;
+
+}
+
+button:hover {
+
+    background-color: rgb(255, 255, 255);
+    color: #35495e;
+    border: 2px solid #35495e;
+}
+@media screen and (max-width: 600px) {
+    form{
+        width: 90%;
+    }
 }
 </style>
