@@ -2,9 +2,6 @@
     <div class="container maindiv">
         <h1 style="text-align: center">All the Vue projects</h1>
         <div class="grid">
-
-
-
             <div v-for="project, index in projects" class="item" v-motion-slide-visible-left>
                 <img :src ="project.image" alt="project image" />
                 <p class="intro">
@@ -85,7 +82,7 @@ h1 {
 img {
     height: 190px;
     width: 250px;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 5px;
     border-radius: 10px;
     transition: 0.5s;
