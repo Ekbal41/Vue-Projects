@@ -5,7 +5,7 @@
 
 
 
-            <div v-for="project, index in projects" class="item">
+            <div v-for="project, index in projects" class="item" v-motion-slide-visible-left>
                 <img   :src="project.image" alt="project image" />
                 <p class="intro">
                     <p class='project-name'>

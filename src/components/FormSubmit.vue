@@ -1,5 +1,5 @@
 <template>
-    <div class="container maindiv">
+    <div class="container maindiv" v-motion-slide-visible-right>
         <h1 style="text-align: center; color: #38b883; text-transform: uppercase;">Contact me</h1>
         <form @submit.prevent="onSubmit">
             <label class="label" for="name">Name</label>

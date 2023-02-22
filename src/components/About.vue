@@ -7,16 +7,16 @@
             <h1>About Me & My skills</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sed ex facilis dicta ad quis a placeat, praesentium inventore, consequuntur fugit illum recusandae cumque asperiores sit totam pariatur, adipisci ipsa. Voluptatum nesciunt explicabo magnam similique aspernatur dolorum temporibus libero a ipsam, suscipit nisi, consequuntur vel deserunt, autem fugit reiciendis quo.</p>
             <div>
-               <img class="icon" src="../assets/css-3.png" alt="css" />
-               <img class="icon" src="../assets/html-5.png" alt="html" />
-               <img class="icon" src="../assets/js.png" alt="js" />
-               <img class="icon" src="../assets/react.png" alt="react" />
-               <img class="icon" src="../assets/vue.svg" alt="vue" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/css-3.png" alt="css" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/html-5.png" alt="html" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/js.png" alt="js" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/react.png" alt="react" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/vue.svg" alt="vue" />
 
 
-               <img class="icon" src="../assets/python.png" alt="python" />
-               <img class="icon" src="../assets/laravel.png" alt="laravel" />
-               <img class="icon" src="../assets/database.png" alt="database" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/python.png" alt="python" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/laravel.png" alt="laravel" />
+               <img v-motion-slide-visible-left class="icon" src="../assets/database.png" alt="database" />
             </div>
         </div>
         

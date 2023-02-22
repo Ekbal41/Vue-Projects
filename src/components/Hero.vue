@@ -1,13 +1,15 @@
 <template>
-    <div class="container mt-80 ">
+    <div class="container mt-80 " 
+   
+    >
         <div class="row maindiv ">
-            <div class="col-md-6 col-sm-1 sec-one ">
+            <div class="col-md-6 col-sm-1 sec-one "  v-motion-slide-left>
                 <h1>Wellcome to Vue project website</h1>
                 <p class="intro">Vue is a framework and ecosystem that covers most of the common features needed in frontend
                     development. </p>
                 <button class="mt-3">Learn More</button>
             </div>
-            <div class="col-md-6 col-sm-1 cborder ">
+            <div  v-motion-slide-right class="col-md-6 col-sm-1 cborder ">
 
                 <img src="../assets/vue3.jpeg" alt='vue' />
               

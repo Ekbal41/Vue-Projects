@@ -1,7 +1,7 @@
 <script setup>
 
-import Form from './components/FormSubmit.vue'
 import Mainlayout from './components/layout/Mainlayout.vue'
+
 </script>
 
 <template>
